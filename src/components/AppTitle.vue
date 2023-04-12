@@ -1,6 +1,6 @@
 <template>
     <div class="title-wrapper">
-        <h1>{{title}}</h1>
+        <h1 class="text-white">{{title}}</h1>
     </div>
 </template>
 

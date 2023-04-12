@@ -1,7 +1,11 @@
 <template>
-  <header>
-    <AppTitle/>
-  </header>
+  <div class="mainWrapper w-100 vh-100 bg-dark">
+    <header class="container">
+      <AppTitle/>
+      
+    </header>
+
+  </div>
 </template>
 
 <script>
@@ -14,4 +18,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
+</style>
